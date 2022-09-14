@@ -55,7 +55,6 @@ def create_triangle(i, j, action):
                                     (i+1)*Width, (j+0.5)*Width,
                                     fill="white", width=1)
 
-
 def render_grid():
     global specials, walls, Width, x, y, player
     for i in range(x):
